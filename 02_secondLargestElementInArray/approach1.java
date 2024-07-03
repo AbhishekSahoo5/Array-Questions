@@ -7,14 +7,16 @@ public class approach1 {
         if(n==0 || n==1){
             return -1;
         }
-        int large=Integer.MIN_VALUE;
+        int large=-1;
 
         for(int i=0;i<n;i++)
         {
-            large=Math.max(large,arr[i]);
+            if(arr[i]>large){
+                large=arr[i];
+            }
         }
 
-        int second_large=Integer.MIN_VALUE;
+        int second_large=-1;
         for(int i=0;i<n;i++)
         {
             if(arr[i]>second_large && arr[i]!=large)
