@@ -24,6 +24,9 @@ public class _02_better {
         }
         return -1;
 
+         // Time complexity = O(NlogN)+O(N)
+        // Space complexity = O(N)
+
     }
     public static void main(String[] args) {
         int arr[]={3,2,3};

@@ -1,0 +1,3 @@
+1st type:
+-----------
+Return YES if there exist two numbers such that their sum is equal to the target. Otherwise, return No.

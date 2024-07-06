@@ -30,6 +30,9 @@ public class _03_optimized {
             return element;
         }
         return -1;
+
+        // Time compleixty = O(n)
+        // Time compleixty = O(1)
     }
 
     public static void main(String[] args) {
