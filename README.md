@@ -34,4 +34,4 @@
 32) Find the repeating and missing number
 33) Count Inversions
 34) Reverse Pairs
-35) Maximum Product Subarray
+35) Maximum Product Subarray (LeetCode 152)
